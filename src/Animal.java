@@ -1,10 +1,11 @@
 public class Animal {
-    static int count;
-     String name;
+    static int animalCount;
+    private String name;
     private int obstacleLength;
+
     public Animal(String name) {
         this.name = name;
-        count++;
+        animalCount++;
     }
 
     public void run(int obstacleLength) {
@@ -13,5 +14,13 @@ public class Animal {
 
     public void swim(int obstacleLength) {
         System.out.println("I can swim");
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

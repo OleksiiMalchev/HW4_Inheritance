@@ -6,6 +6,6 @@ public class Test {
         dogBobik.swim(9);
         catMurzik.swim(5);
         catMurzik.run(200);
-        System.out.println("We created" + " " + Animal.count + " Animals");
+        System.out.println("We created" + " " + Animal.animalCount + " Animals:" + " " + Dog.dogCount + " Dogs" + "," + Cat.catCount + " Cats.");
     }
 }
